@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+* {
+  transition: all 0.2s linear;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ 
+
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+h3 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  padding: 1.7rem;
+  text-align: justify;
+  font-family: "Nunito", sans-serif;
+}
+
+
+
+#blackBtn {
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  /* background-color: #dddddd;*/
+  background-color: #d2d2d2;
+  border: none;
+  outline: 0.2rem solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#blueBtn {
+  border-radius: 0%;
+  width: 20px;
+  height: 20px;
+  background-color: #d8c6ff;
+  border: none;
+  outline: 0.2rem solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#greyBtn {
+  border-radius: 0%;
+  width: 20px;
+  height: 20px;
+  background-color: #ffd3d3;
+  border: none;
+  outline: 0.2rem solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#redBtn {
+  border-radius: 0%;
+  width: 20px;
+  height: 20px;
+  background-color: #d0f5ff;
+  border: none;
+  outline: 0.2rem solid rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
+.fontSizeBtn {
+  padding-top: 50px;
+}
+
+#increaseBtn {
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 0%;
+  width: 35px;
+  height: 35px;
+  font-size: 33px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#resetBtn {
+  border-radius: 0%;
+  width: 27px;
+  height: 27px;
+  font-size: 24px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#decreaseBtn {
+  border-radius: 0%;
+  width: 22px;
+  height: 20px;
+  font-size: 18px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#container1 {
+  padding: 10px;
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  color: rgb(0, 0, 0);
+
+}
+
+ 
+#products-container1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0;
+  padding-left: 90px;
+  padding-right: 100px;
+}
+
+ 
+.product {
+  text-align: center;
+  width: 170px;
+  height: 230px;
+  padding: 1rem;
+  cursor: pointer;
+  background: transparent;
+}
+
+.product:hover {
+  outline: 0.4rem solid red;
+  transform: scale(1.1);
+}
+
+.product img {
+  height: 170px;
+  width: 120px;
+
+}
+
+.product h3,
+h2 {
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+}
+
+.image-container {
+  height: 60vh;
+  margin: 60px;
+  width: 980px;
+  margin-left: 130px;
+  padding-left: 10px;
+  outline: 0.5rem solid #ff523b;
+}
+
+.description {
+  width: 400px;
+  height: 500px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 600px;
+  right: 0;
+  top: 680px;
+  /* bottom: 800px;*/
+  font-size: 15px;
+}
+
+#image {
+  width: 350px;
+  height: 355px;
+  padding: 1em;
+  padding-left: 10px;
+}
+
+.editor {
+  text-align: end;
+  padding: 10px 30px;
+}
+
+.editor a {
+  cursor: pointer;
+}
+
+.editor p {
+  text-align: end;
+}

@@ -1,0 +1,506 @@
+:root {
+    --main-color: #ffffff;
+    --shadow-color: #f4f4f4c0;
+    --text-color: #000000;
+    --orange: #ff622d;
+    --purple: #421983;
+    --footer-background: #1d262d;
+    --light_brown:#857519;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.selected {
+    background-color: var(--main-color);
+    color: black;
+}
+
+.logo {
+    line-height: 80px;
+    padding: 0 auto;
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 20px 140px;
+}
+
+.section-header {
+    padding-top: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+
+    color: rgb(255, 255, 255);
+    background-color: #421983;
+    border: none;
+    border-radius: 90px;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: var(--light_brown);
+}
+
+
+.shop-item {
+    
+    position: relative;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 120px;
+    border-radius: 10px;
+}
+
+.rating img {
+    width: 13px;
+
+}
+
+.shop-item-title {
+    padding-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.shop-item-image {
+    height: 350px;
+    width: 240px;
+    transition: transform .5s;
+    border-radius: 20px;
+
+}
+
+.shop-item-image:hover {
+    transform: translateY(-6%);
+
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+}
+
+.shop-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* ------------------------------checkout details -------------------------------------- */
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: rgb(0, 0, 0);
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(37, 17, 17);
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+}
+
+.cart-quantity {
+    width: 30%;
+}
+
+.cart-item-title {
+    color: rgb(0, 0, 0);
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #421983;
+    border: none;
+    border-radius: .3em;
+}
+
+.btn-danger:hover {
+    background-color: #ff622d;
+    transition: 0.2s;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 2px solid #ff0000;
+    background-color: #ffffff;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.25em;
+}
+
+
+/*------------------------- Popup box for user data input CSS Section-------------------------*/
+
+
+.popupContainer {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%);
+    text-align: center;
+    z-index: 1000;
+}
+
+.popupContainer h1 {
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    height: 700px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 28px -4px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.model {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 500px;
+    max-width: 80%;
+    z-index: 21;
+    background: #f7f6ff;
+
+}
+
+.model.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.model-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: #000000;
+}
+
+.model-header .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.model-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.model-body {
+    padding: 10px 25px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.192);
+    backdrop-filter: blur(80px);
+    pointer-events: none;
+    z-index: 20;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+#user-details-form {
+    width: 300px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: #ff0000;
+}
+
+.title {
+    margin-bottom: 0;
+
+}
+
+.input-group {
+    margin: -10px 0;
+    position: relative;
+}
+
+.input-group label {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.input-group input {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+
+.error input {
+    border: 3px red solid;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+}
+
+.success input {
+    border: 3px rgb(0, 224, 0) solid;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+}
+
+.input-group i {
+    position: absolute;
+    right: 10px;
+    top: 52px;
+    visibility: hidden;
+}
+
+
+.success i.fa-check-circle {
+    visibility: visible;
+    color: rgb(0, 224, 0);
+
+}
+
+.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: red;
+}
+
+
+.input-group p {
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.error p {
+    visibility: visible;
+}
+
+#btnPopup {
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #421983;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+#btnPopup:hover {
+    transform: scale(1.05);
+    color: #fff;
+}
+
+.small-img-row {
+    width: 50%;
+    display: flex;
+    border-radius: 30px;
+
+}
+
+.small-img-col {
+    flex-basis: 30%;
+    cursor: pointer;
+}
+
+
+/*---------------------------page editor------------------------------*/
+.pageeditor {
+    display: inline-block;
+    background: #8b8b8b;
+    color: #fff;
+    padding: 2px 22px;
+    margin: 5px 0;
+    border-radius: 0px;
+    transition: background 0.5s;
+}
+
+.pageeditor:hover {
+    background: #4a4a4a;
+}
+
+.col-22 {
+    text-align: end;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}

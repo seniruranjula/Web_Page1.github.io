@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+:root {
+    --main-color: #ffffff;
+    --shadow-color: #eae7e7;
+    --text-color: #000000;
+    --orange: #ff622d;
+    --purple: #421983;
+    --footer-background: #1d262d;
+}
+
+
+* {
+    cursor: pointer, auto;
+}
+
+
+/*hover add*/
+.svg_sections {
+    font-family: 'Poppins';
+    /* font-size: 14px; */
+}
+
+/*add frame*/
+.svg_rect {
+    stroke-width: 0.278vw;
+}
+
+.svg_lines {
+    stroke: rgb(66, 66, 211);
+    stroke-width: 0.278vw;
+}
+
+.sitemap {
+    /* fill: linear-gradient(white);SItemap */
+    
+    fill: rgb(158, 167, 177);
+    font-size: 27px; 
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url("images/band-tenside.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    stroke: rgb(255, 0, 0);
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+
+*/ svg g rect {
+    stroke: rgb(149, 194, 227);
+    stroke-width: 3px;
+}
+
+svg g text {
+    fill: rgb(80, 198, 231);
+    /* font-weight: 540; */
+}
+
+svg g a:hover rect {
+    stroke: #ad4c4c;
+    transition: 0.5s ease;
+}
+
+svg g a:hover text {
+    fill: #bd3838;
+    transition: 0.5s ease;
+}
+
+.editor {
+    text-align: end;
+    padding: 10px 30px;
+}
+
+.editor a {
+    cursor: pointer;
+}

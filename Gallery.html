@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Gallery</title>
+  <link rel="stylesheet" href="css/Gallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styleguide.css">
+
+</head>
+
+<body id="backgroundColor">
+
+  <!-- <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" width="125px">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="Main.html">Home</a></li>
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Account</a></li>
+
+        </ul>
+      </nav>
+      <img src="images/cart.png" width="25px" height="25px">
+    </div>
+  </div> -->
+
+  <nav class="navbar">
+    <div>
+      <a class="navbar-brand" href="homepage.html"><img src="images/Logo.png" alt="" width="70"
+             height="70">
+        <p>Sports<span>Coner</span></p>
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li class="nav-item">
+        <a href="store.html">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a href="comments.html">Comments</a>
+      </li>
+      <li class="nav-item">
+        <a href="quiz.html">Take Quiz</a>
+      </li>
+      <li class="nav-item">
+        <a href="studentdetails.html">Student Details</a>
+      </li>
+      <li class="nav-item">
+        <a href="SVG.html">Sitemap</a>
+      </li>
+      <li class="nav-item active">
+        <a href="Gallery.html">Image Gallery</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <div class="fontSizeBtn">
+    <button id="increaseBtn" onclick="increaseSize(this)">A</button>
+    <button id="resetBtn" onclick="resetSize(this)">A</button>
+    <button id="decreaseBtn" onclick="decreaseSize(this)">A</button>
+  </div>
+
+  <div class="colorBtn">
+    <button id="blackBtn" onclick="changeBackgroundColor(this)" value="#d2d2d2"></button>
+    <button id="blueBtn" onclick="changeBackgroundColor(this)" value="#d8c6ff"></button>
+    <button id="greyBtn" onclick="changeBackgroundColor(this)" value="#ffd3d3"></button>
+    <button id="redBtn" onclick="changeBackgroundColor(this)" value="#d0f5ff"></button>
+  </div>
+
+
+
+  <br>
+
+  <h1 id="title">Gallery</h1>
+  <hr>
+
+  <div id="container1">
+
+    <div id="products-container1">
+
+
+      <div class="product" data-name="p-1">
+        <img src="images/basketball.jpg" alt="Basketball" onmouseover="showWideAreaImage(this)" id="img_id_1">
+        <h3>Basketball</h3>
+
+      </div>
+
+      <div class="product" data-name="p-2">
+        <img src="images/Hockey.jpg" alt="Ice Hockey" onmouseover="showWideAreaImage(this)" id="img_id_2">
+        <h3>Ice Hockey</h3>
+
+      </div>
+
+      <div class="product" data-name="p-3">
+        <img src="images/Equestrianism.jpg" alt="Equestrianism" onmouseover="showWideAreaImage(this)" id="img_id_3">
+        <h3>Equestrianism</h3>
+
+      </div>
+
+      <div class="product" data-name="p-4">
+        <img src="images/Table tennis.jpg" alt="Table Tennis" onmouseover="showWideAreaImage(this)" id="img_id_4">
+        <h3>Table Tennis</h3>
+      </div>
+
+      <div class="product" data-name="p-5">
+        <div class="product_1">
+          <img src="images/FleetRacing.jpg" alt="Fleet Racing" onmouseover="showWideAreaImage(this)" id="img_id_5">
+          <h3>Fleet Racing</h3>
+
+        </div>
+      </div>
+
+      <div class="product" data-name="p-6">
+        <img src="images/Badmintain.jpg" alt="Badmintain" onmouseover="showWideAreaImage(this)" id="img_id_6">
+        <h3>Badmintain</h3>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="container2">
+
+    <div id="products-container2">
+
+    </div>
+  </div>
+
+  <div class="image-container">
+    <img src="/assests/basketball" alt="basketball" id="image">
+    <div class="description" id="gameDescription"></div>
+  </div>
+
+  <div class="editor">
+    <p>Page Editor</p>
+    <a id="name" href="page-editor-duvindu.html">Duvindu Megasooriya</a>
+  </div>
+
+
+  <!-- FOOTER -->
+
+  <section class="links">
+    <div class="links-inner">
+      <div>
+        <a href="homepage.html"><img src="images/Logo.png" alt="" width="80" height="80">
+          <p>Sports<span>Coner</span></p>
+        </a>
+      </div>
+      <ul>
+        <li>
+          <h3>Quick Links</h3>
+        </li>
+        <li><a href="store.html">Shop Now</a></li>
+        <li><a href="comments.html">Comments</a></li>
+        <li><a href="quiz.html">Take Quiz</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>More</h3>
+        </li>
+        <li><a href="studentdetails.html">Student Details</a></li>
+        <li><a href="SVG.html">Sitemap</a></li>
+        <li><a href="ImashaGallery.html">Image Gallery</a></li>
+      </ul>
+      <ul class="contact">
+        <li>
+          <h3>Contact Us</h3>
+        </li>
+        <li class="info">
+          <div>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+          </div>
+          <address>Address: No.10/1, 1st Lane, Galle Road, Wellawatte, Sri Lanka.</address>
+        </li>
+        <li class="info">
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <a href="mailto:sportsConer.lk">Email: info@sportsConer.lk</a>
+        </li>
+        <li class="info">
+          <div>
+            <i class="fa-sharp fa-solid fa-phone"></i>
+          </div>
+          <a href="tel:603-555-0123"> Phone: +94 71 9386713 </a>
+        </li>
+      </ul>
+      <div class="top">
+        <a href="#"><img src="images/top.png" alt="top" width="30" height="30"></a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-inner">
+      <p> Copyright &copy; 2023 - SportsConer - All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+  <!---------------------page editor-------------------->
+
+
+  <script>
+
+    function showWideAreaImage(images) {
+      var expandImage = document.getElementById("image");
+      var imgText = document.getElementById("gameDescription");
+      expandImage.src = images.src;
+      var heading = images.alt;
+
+      switch (heading) {
+        case "Basketball":
+          imgText.innerHTML = "<h3>Basketball</h3><p>Basketball is a team sport where one team, usually consisting of five players in each team, play against each other on a rectangular court. The objective is to get the ball through a hoop mounted high on a backboard on the opponent's side of the court, while preventing the opponent from shooting it into your team's hoop. It is a very popular sport worldwide, played with a round and usually orange.ball that bounces. Basketball players mainly use skills such as dribbling, shooting, running, and jumping.The game typically lasts for four-quarters and the team with the most points at the end of the four-quarters win the game. If the score is tied at the end of the game, there will be additional play time, called overtime, to allow one team to win the match.</p>";
+          break;
+        case "Ice Hockey":
+          imgText.innerHTML = "<h3>Ice Hockey</h3><p>Ice hockey is a sport that is played by two teams on ice. The players wear ice skates on their feet and can skate across the ice at very high speeds. They hold hockey sticks, which they use to push, shoot or pass a puck around the ice. The players score by shooting the puck into a net; the goaltenders try to stop them. Six players on each team play at once, but a whole team has over 20 players. Each team has 2 defenders, 3 forwards, and a goalie on the ice at a time.</p>";
+          break;
+        case "Equestrianism":
+          imgText.innerHTML = "<h3>Equestrianism</h3><p>Equestrianism is the sport of horseback riding. It is a popular sport in countries like the United States, Australia, the United Kingdom and other countries in Europe. Horses are used in many different competitions.Within the sport, there are several types of riding, such as English and Western. In English riding, there are three Olympic events: cross country, dressage and show jumping (in which competitors ride horses over obstacles). There are no forms of Western riding in the Olympics.</p>";
+          break;
+        case "Table Tennis":
+          imgText.innerHTML = "<h3>Table Tennis</h3><p>The game is played on a rectangular table that is divided in half by a net. Two or four players use small paddles, called rackets, to hit a lightweight ball back and forth across the net. The goal of the game is to hit the ball in such a way that the opponent is unable to return it. Points are awarded to the player who wins each rally, and the first player to reach a certain number of points, typically 11 or 21, wins the game.</p>";
+          break;
+        case "Fleet Racing":
+          imgText.innerHTML = "<h3>Fleet Racing</h3><p>Fleet racing is a form of competitive sailing that involves sailboats racing one another over a set course. It is the most common form of sailboat racing and contrasts with match racing and team racing.Fleet racing can take place in two main formats. In the 'One-Design' basis, all boats in the fleet are of the same class (i.e., the same design, length, and sail area). Alternatively, different classes of boats can race on a handicap basis, where faster classes give time to slower classes either by starting the race later or having their finishing times adjusted after the race's completion.</p>";
+          break;
+        case "Badmitain":
+          imgText.innerHTML = "<h3>Badmintain</h3><p>Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are 'singles' (with one player per side) and 'doubles' (with two players per side). Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the other team's half of the court.</p>";
+          break;
+      }
+    }
+
+
+    //changes background color
+    function changeBackgroundColor(color) {
+      var colorChange = color.value;
+      document.body.style.backgroundImage = "none";
+      document.getElementById("backgroundColor").style.backgroundColor = colorChange;
+    }
+
+    //change font size
+    function decreaseSize() {
+      const element = document.getElementById("title");
+      const computedStyle = window.getComputedStyle(element);
+      const fontSize = computedStyle.getPropertyValue("font-size");
+
+      currentSize = parseFloat(window.getComputedStyle(element).fontSize);
+
+      if (parseFloat(fontSize) > 10) {
+        var newSize = currentSize - 4;
+        document.getElementById("title").style.fontSize = newSize + "px";
+      }
+    }
+
+
+    function resetSize() {
+      document.getElementById("title").style.fontSize = 8 + "rem";
+    }
+
+
+    function increaseSize() {
+      const element = document.getElementById("title");
+      const computedStyle = window.getComputedStyle(element);
+      const fontSize = computedStyle.getPropertyValue("font-size");
+
+      currentSize = parseFloat(window.getComputedStyle(element).fontSize);
+
+      if (parseFloat(fontSize) < 130) {
+        var newSize = currentSize + 4;
+        document.getElementById("title").style.fontSize = newSize + "px";
+      }
+    }
+    //.................................................................................
+
+
+    //top button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 100px from the top of the document, show the icon
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+    function navigateToMainImg() {
+      document.body.scrollDown = 520;
+      document.documentElement.scrollTop = 520;
+    }
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/store.css">
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="js/store.js" async></script>
+
+
+    <title> Sports |Corner </title>
+
+    <script>
+        // Passing Values To Invoice Page
+        function passvalues() {
+            var finalTotal = document.getElementsByClassName("cart-total-price")[0].innerText;
+            console.log(finalTotal);
+            localStorage.setItem("textval", finalTotal);
+            return false;
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <!-- NAVBAR  -->
+
+    <nav class="navibar">
+        <div>
+            <a class="navibar-brand" href="" ><img src="finalimage.png" alt="" width="70" height="70">
+                <p><i>Sports<span>Corner</span></i></p>
+            </a>
+        </div>
+        <ul class="navi-links">
+            <li class="navi-item active">
+                <a href="store.html">Shop</a>
+            </li>
+            <li class="navi-item">
+                <a href="comments.html">Comments</a>
+            </li>
+            <li class="navi-item">
+                <a href="quiz.html">Take Quiz</a>
+            </li>
+            <li class="navi-item">
+                <a href="studentdetails.html">Student Details</a>
+            </li>
+            <li class="navi-item">
+                <a href="SVG.html">Sitemap</a>
+            </li>
+            <li class="navi-item">
+                <a href="Gallery.html">Image Gallery</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="container content-section">
+
+        <h2 class="section-header" id="classical">Sports Equipments </h2>
+        <div class="shop-items">
+
+           
+
+            
+            <div class="shop-item">
+                <img class="shop-item-image" src="newcarrom1.jpg" alt="CarromBoard">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newcarrom2.jpg"  class="small-img" alt="CarromBoard" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcarrom3.jpg"  class="small-img" alt="CarromBoard" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CarromBoard/img3.jpg"  class="small-img" alt="CarromBoard" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CarromBoard/img1.jpg" class="small-img" alt="CarromBoard"  width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Carrom Board
+                    <!--<h6>(Gorgeous Spanish-specific nylon with onboard electronics)</h6>-->
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="halfstar.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.50</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <script>
+                var ProductImg0 = document.getElementById("ProductImg0");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[4].onclick = function () {
+                    ProductImg0.src = SmallImg[4].src;
+                }
+                SmallImg[5].onclick = function () {
+                    ProductImg0.src = SmallImg[5].src;
+                }
+                SmallImg[6].onclick = function () {
+                    ProductImg0.src = SmallImg[6].src;
+                }
+                SmallImg[7].onclick = function () {
+                    ProductImg0.src = SmallImg[7].src;
+                }
+
+            </script>
+
+            
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="sfbat1.jpg" id="ProductImg1" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/CricketBat/img1.jpg"  class="small-img"  alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketBat/img2.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketBat/img3.jpeg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketBat/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Stanfrod Cricket Bat (SF)
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$199.00 - $499.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+        </div>
+
+        <script>
+            var ProductImg1 = document.getElementById("ProductImg1");
+            var SmallImg = document.getElementsByClassName("small-img");
+            SmallImg[8].onclick = function () {
+                ProductImg1.src = SmallImg[8].src;
+            }
+            SmallImg[9].onclick = function () {
+                ProductImg1.src = SmallImg[9].src;
+            }
+            SmallImg[10].onclick = function () {
+                ProductImg1.src = SmallImg[10].src;
+            }
+            SmallImg[11].onclick = function () {
+                ProductImg1.src = SmallImg[11].src;
+            }
+
+        </script>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="container content-section">
+        <div class="shop-items">
+            <div class="shop-item">
+                <img class="shop-item-image" src="newcycle1.jpg"  alt="StoreProducts" id="ProductImg2">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/CycleHelmet/img1.jpeg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CycleHelmet/img2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CycleHelmet/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CycleHelmet/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Bicycle Helmet
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$68.00 - $90.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg2 = document.getElementById("ProductImg2");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[12].onclick = function () {
+                    ProductImg2.src = SmallImg[12].src;
+                }
+                SmallImg[13].onclick = function () {
+                    ProductImg2.src = SmallImg[13].src;
+                }
+                SmallImg[14].onclick = function () {
+                    ProductImg2.src = SmallImg[14].src;
+                }
+                SmallImg[15].onclick = function () {
+                    ProductImg2.src = SmallImg[15].src;
+
+                }
+
+            </script>
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="nikecap1.jpg"  alt="StoreProducts" id="ProductImg3">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="nikecap2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="nikecap3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="nikecap1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="nikecap5.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Nike Sport Cap
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$24.00-$32.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg3 = document.getElementById("ProductImg3");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[16].onclick = function () {
+                    ProductImg3.src = SmallImg[16].src;
+                }
+                SmallImg[17].onclick = function () {
+                    ProductImg3.src = SmallImg[17].src;
+                }
+                SmallImg[18].onclick = function () {
+                    ProductImg3.src = SmallImg[18].src;
+                }
+                SmallImg[19].onclick = function () {
+                    ProductImg3.src = SmallImg[19].src;
+                }
+
+            </script>
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newrugby1.jpg" alt="StoreProducts" id="ProductImg4">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newrugby2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newrugby3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newrugby4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/RugbyBall/img1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Gilbert Rugby Balls
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png"  alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$75.00-$90.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg4 = document.getElementById("ProductImg4");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[20].onclick = function () {
+                    ProductImg4.src = SmallImg[20].src;
+                }
+                SmallImg[21].onclick = function () {
+                    ProductImg4.src = SmallImg[21].src;
+                }
+                SmallImg[22].onclick = function () {
+                    ProductImg4.src = SmallImg[22].src;
+                }
+                SmallImg[23].onclick = function () {
+                    ProductImg4.src = SmallImg[23].src;
+                }
+
+            </script>
+        </div>
+    </section>
+
+
+
+
+    <section class="container content-section">
+        <div class="shop-items">
+            <div class="shop-item">
+                <img class="shop-item-image" src="newchess1.jpg" id="ProductImg5"  alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newchess2.jpg"  class="small-img"  alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/ChessBoardMagnet/img2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/ChessBoardMagnet/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/ChessBoardMagnet/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Chess Board
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png"  alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.00-$23.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+            <script>
+                var ProductImg5 = document.getElementById("ProductImg5");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[24].onclick = function () {
+                    ProductImg5.src = SmallImg[24].src;
+                }
+                SmallImg[25].onclick = function () {
+                    ProductImg5.src = SmallImg[25].src;
+                }
+                SmallImg[26].onclick = function () {
+                    ProductImg5.src = SmallImg[26].src;
+                }
+                SmallImg[27].onclick = function () {
+                    ProductImg5.src = SmallImg[27].src;
+                }
+
+            </script>
+    </section>
+    
+
+
+    <section class="container content-section">
+        <div class="shop-items">
+            <div class="shop-item">
+                <img class="shop-item-image" src="newcycleglass1.jpg" id="ProductImg8" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newcycleglass2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcycleglass3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcycleglass4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img4.jpg"  class="small-img" alt="StoreProducts" width="70">
+                    </div>
+                </div>
+                <span class="shop-item-title">Transparent Cycle Glass
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$1.00-$10.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg8 = document.getElementById("ProductImg8");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[36].onclick = function () {
+                    ProductImg8.src = SmallImg[36].src;
+                }
+                SmallImg[37].onclick = function () {
+                    ProductImg8.src = SmallImg[37].src;
+                }
+                SmallImg[38].onclick = function () {
+                    ProductImg8.src = SmallImg[38].src;
+                }
+                SmallImg[39].onclick = function () {
+                    ProductImg8.src = SmallImg[39].src;
+                }
+
+            </script>
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newcglo1.jpg" id="ProductImg9" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newcglo2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcglo3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketGlouse/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketGlouse/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Cricket Batting Gloves (SF)
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$30.00-$75.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg9 = document.getElementById("ProductImg9");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[40].onclick = function () {
+                    ProductImg9.src = SmallImg[40].src;
+                }
+                SmallImg[41].onclick = function () {
+                    ProductImg9.src = SmallImg[41].src;
+                }
+                SmallImg[42].onclick = function () {
+                    ProductImg9.src = SmallImg[42].src;
+                }
+                SmallImg[43].onclick = function () {
+                    ProductImg9.src = SmallImg[43].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newcl3.jpg" id="ProductImg12" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newcl1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcl2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketLegPad/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketLegPad/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Cricket Leg Pad (SF)
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$80.00-$150.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg12 = document.getElementById("ProductImg12");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[52].onclick = function () {
+                    ProductImg12.src = SmallImg[52].src;
+                }
+                SmallImg[53].onclick = function () {
+                    ProductImg12.src = SmallImg[53].src;
+                }
+                SmallImg[54].onclick = function () {
+                    ProductImg12.src = SmallImg[54].src;
+                }
+                SmallImg[55].onclick = function () {
+                    ProductImg12.src = SmallImg[55].src;
+                }
+
+            </script>
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="Products/CricketHelmet/img1.jpg" id="ProductImg14" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/CricketHelmet/img1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketHelmet/img2.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketHelmet/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/CricketHelmet/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Cricket Helmet
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.00-$130.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg14 = document.getElementById("ProductImg14");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[60].onclick = function () {
+                    ProductImg14.src = SmallImg[60].src;
+                }
+                SmallImg[61].onclick = function () {
+                    ProductImg14.src = SmallImg[61].src;
+                }
+                SmallImg[62].onclick = function () {
+                    ProductImg14.src = SmallImg[62].src;
+                }
+                SmallImg[63].onclick = function () {
+                    ProductImg14.src = SmallImg[64].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newhand1.jpg" id="ProductImg15" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newhand2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newhand3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newhand4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newhand1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Gym Wrist Band
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$2.00-$10.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg15 = document.getElementById("ProductImg15");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[65].onclick = function () {
+                    ProductImg15.src = SmallImg[65].src;
+                }
+                SmallImg[66].onclick = function () {
+                    ProductImg15.src = SmallImg[66].src;
+                }
+                SmallImg[67].onclick = function () {
+                    ProductImg15.src = SmallImg[67].src;
+                }
+                SmallImg[68].onclick = function () {
+                    ProductImg15.src = SmallImg[68].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="hockey-stick-and-ball.jpg" id="ProductImg16" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/HockyBat/img1.jpeg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/HockyBat/img2.jpeg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/HockyBat/img3.jpeg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/HockyBat/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Hocky Stick And Ball
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$30.00-$100.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg16 = document.getElementById("ProductImg16");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[69].onclick = function () {
+                    ProductImg16.src = SmallImg[69].src;
+                }
+                SmallImg[70].onclick = function () {
+                    ProductImg16.src = SmallImg[70].src;
+                }
+                SmallImg[71].onclick = function () {
+                    ProductImg16.src = SmallImg[71].src;
+                }
+                SmallImg[72].onclick = function () {
+                    ProductImg16.src = SmallImg[72].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newcbag1.jpg" id="ProductImg17" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newcbag2.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcbag3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcbag4.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newcbag1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Cricket Kit Bag (Kookaburra)
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="halfstar.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$140.00-$160.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg17 = document.getElementById("ProductImg17");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[73].onclick = function () {
+                    ProductImg17.src = SmallImg[73].src;
+                }
+                SmallImg[74].onclick = function () {
+                    ProductImg17.src = SmallImg[74].src;
+                }
+                SmallImg[75].onclick = function () {
+                    ProductImg17.src = SmallImg[75].src;
+                }
+                SmallImg[76].onclick = function () {
+                    ProductImg17.src = SmallImg[76].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newfootball.jpeg" id="ProductImg18" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="football1.jpg" class="small-img" alt="StoreProducts" width="60" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="football2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="football3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="football2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Football Boots
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$150.00-$400.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg18 = document.getElementById("ProductImg18");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[77].onclick = function () {
+                    ProductImg18.src = SmallImg[77].src;
+                }
+                SmallImg[78].onclick = function () {
+                    ProductImg18.src = SmallImg[78].src;
+                }
+                SmallImg[79].onclick = function () {
+                    ProductImg18.src = SmallImg[79].src;
+                }
+                SmallImg[80].onclick = function () {
+                    ProductImg18.src = SmallImg[80].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newsmartwatch1.jpg" id="ProductImg19" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/XiyomiSmartwatchBand/img1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/XiyomiSmartwatchBand/img2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/XiyomiSmartwatchBand/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/XiyomiSmartwatchBand/img4.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Smart Watch
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$20.00-$200.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg19 = document.getElementById("ProductImg19");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[81].onclick = function () {
+                    ProductImg19.src = SmallImg[81].src;
+                }
+                SmallImg[82].onclick = function () {
+                    ProductImg19.src = SmallImg[82].src;
+                }
+                SmallImg[83].onclick = function () {
+                    ProductImg19.src = SmallImg[83].src;
+                }
+                SmallImg[84].onclick = function () {
+                    ProductImg19.src = SmallImg[84].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newshuttle1.jpg" id="ProductImg20" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/Shuttlecock/img2.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/Shuttlecock/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/Shuttlecock/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/Shuttlecock/img5.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">ShuttleCock
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.00-$10.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg20 = document.getElementById("ProductImg20");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[85].onclick = function () {
+                    ProductImg20.src = SmallImg[85].src;
+                }
+                SmallImg[86].onclick = function () {
+                    ProductImg20.src = SmallImg[86].src;
+                }
+                SmallImg[87].onclick = function () {
+                    ProductImg20.src = SmallImg[87].src;
+                }
+                SmallImg[88].onclick = function () {
+                    ProductImg20.src = SmallImg[88].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newswim1.jpg" id="ProductImg22" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newswim2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newswim3.png" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newswim4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/Googles/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Swim Goggels (Silicone)
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.00-$75.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg22 = document.getElementById("ProductImg22");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[93].onclick = function () {
+                    ProductImg22.src = SmallImg[93].src;
+                }
+                SmallImg[94].onclick = function () {
+                    ProductImg22.src = SmallImg[94].src;
+                }
+                SmallImg[95].onclick = function () {
+                    ProductImg22.src = SmallImg[95].src;
+                }
+                SmallImg[96].onclick = function () {
+                    ProductImg22.src = SmallImg[96].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newtenis.jpg" id="ProductImg23" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newtenis2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newtenis3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newtenis4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newtenis5.jpg" class="small-img" alt="StoreProducts" width="60" >
+                    </div>
+                </div>
+                <span class="shop-item-title">Tennis Ball
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.00-$15.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg23 = document.getElementById("ProductImg23");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[97].onclick = function () {
+                    ProductImg23.src = SmallImg[97].src;
+                }
+                SmallImg[98].onclick = function () {
+                    ProductImg23.src = SmallImg[98].src;
+                }
+                SmallImg[99].onclick = function () {
+                    ProductImg23.src = SmallImg[99].src;
+                }
+                SmallImg[100].onclick = function () {
+                    ProductImg23.src = SmallImg[100].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newttbat1.jpg" id="ProductImg24" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/TableTenisBat/img1.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/TableTenisBat/img2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/TableTenisBat/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/TableTenisBat/img4.jpeg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Table Tennis Bat
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$35.00-$100.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg24 = document.getElementById("ProductImg24");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[101].onclick = function () {
+                    ProductImg24.src = SmallImg[101].src;
+                }
+                SmallImg[102].onclick = function () {
+                    ProductImg24.src = SmallImg[102].src;
+                }
+                SmallImg[103].onclick = function () {
+                    ProductImg24.src = SmallImg[103].src;
+                }
+                SmallImg[104].onclick = function () {
+                    ProductImg24.src = SmallImg[104].src;
+                }
+
+            </script>
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="Products/SkippingRope/img1.jpg" id="ProductImg28" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Products/SkippingRope/img1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/SkippingRope/img2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/SkippingRope/img3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Products/SkippingRope/img4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Skipping Rope
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.00-$35.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg28 = document.getElementById("ProductImg28");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[117].onclick = function () {
+                    ProductImg28.src = SmallImg[117].src;
+                }
+                SmallImg[118].onclick = function () {
+                    ProductImg28.src = SmallImg[118].src;
+                }
+                SmallImg[119].onclick = function () {
+                    ProductImg28.src = SmallImg[119].src;
+                }
+                SmallImg[120].onclick = function () {
+                    ProductImg28.src = SmallImg[120].src;
+                }
+
+            </script>
+
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="newwater2.jpg" id="ProductImg29" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="newwater1.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newwater3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newwater4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="newwater5.jpg"  class="small-img" alt="StoreProducts" width="30">
+                    </div>
+                </div>
+                <span class="shop-item-title">Water Bottle
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$3.00-$10.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg29 = document.getElementById("ProductImg29");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[121].onclick = function () {
+                    ProductImg29.src = SmallImg[121].src;
+                }
+                SmallImg[122].onclick = function () {
+                    ProductImg29.src = SmallImg[122].src;
+                }
+                SmallImg[123].onclick = function () {
+                    ProductImg29.src = SmallImg[123].src;
+                }
+                SmallImg[124].onclick = function () {
+                    ProductImg29.src = SmallImg[124].src;
+                }
+
+            </script>
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="volleyball1.jpg" id="ProductImg34" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="volleyball2.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="volleyball3.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="volleyball4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="volleyball5.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Volleyball
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$15.00-$20.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg34 = document.getElementById("ProductImg34");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[141].onclick = function () {
+                    ProductImg34.src = SmallImg[141].src;
+                }
+                SmallImg[142].onclick = function () {
+                    ProductImg34.src = SmallImg[142].src;
+                }
+                SmallImg[143].onclick = function () {
+                    ProductImg34.src = SmallImg[143].src;
+                }
+                SmallImg[144].onclick = function () {
+                    ProductImg34.src = SmallImg[144].src;
+                }
+
+            </script>
+
+
+
+            <div class="shop-item">
+                <img class="shop-item-image" src="stumps.jpg" id="ProductImg40" alt="StoreProducts">
+                <br>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="stumps5.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="stumps2.jpg" class="small-img" alt="StoreProducts"  width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="stumps3.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="stumps4.jpg"  class="small-img" alt="StoreProducts" width="60">
+                    </div>
+                </div>
+                <span class="shop-item-title">Cricket Stumps
+                </span>
+                <div class="rating">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                    <img src="favorite.png" alt="star">
+                </div>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$1.00-$18.00</span>
+                </div>
+                <div class="shop-item-details">
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <script>
+                var ProductImg40 = document.getElementById("ProductImg40");
+                var SmallImg = document.getElementsByClassName("small-img");
+                SmallImg[165].onclick = function () {
+                    ProductImg40.src = SmallImg[165].src;
+                }
+                SmallImg[166].onclick = function () {
+                    ProductImg40.src = SmallImg[166].src;
+                }
+                SmallImg[167].onclick = function () {
+                    ProductImg40.src = SmallImg[167].src;
+                }
+                SmallImg[168].onclick = function () {
+                    ProductImg40.src = SmallImg[168].src;
+                }
+
+            </script>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+
+
+
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <br>
+        <br>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div id="mydiv1" class="cart-items">
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button data-model-target="#model" class="btn btn-primary btn-purchase" type="submit">PURCHASE</button>
+    </section>
+
+
+    <!--Beginning Of User Details Form-->
+    <div class="model" id="model">
+        <div class="model-header">
+            <div class="title">User Details Form</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="model-body">
+            <form id="create-account-form" action="invoice.html" method="GET">
+                <!-- USERNAME -->
+                <div class="input-group">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" placeholder="Name" name="Name">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>Error Message</p>
+                </div>
+                <!-- EMAIL -->
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email" name="Email">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>Error Message</p>
+                </div>
+                <!-- USER ADDRESS -->
+                <div class="input-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="Address" name="Address">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>Error Message</p>
+                </div>
+                <!-- MOBILE NUMBER  -->
+                <div class="input-group">
+                    <label for="mobileNumber">Mobile Number</label>
+                    <input type="tel" id="mobileNumber" placeholder="Mobile Number" name="Phone">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>Error Message</p>
+                </div>
+
+                <form action="output-Javascript-Localstorage.html" method="POST">
+                    <input id="btnPopup" type="submit" value="Checkout" onclick="passvalues(),invoiceData()">
+                    <script>
+                        function invoiceData() {
+                            var productsVar = document.getElementById('mydiv1').innerHTML;
+                            localStorage.setItem("ITEMS", productsVar);
+                            return;
+                        }
+                    </script>
+                </form>
+
+                <script src="js/userInputValidation.js"></script>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <!--End Of User Detail Form-->
+
+    <script src="js/userDetailForm.js" async></script>
+
+    <div class="col-22">
+        <h5>Seniru Ranjula <br></h5>
+        <a href="page_editor_seniru.html" class="pageeditor">Page Editor&#8594;</a>
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+    <section class="link">
+        <div class="link-inner">
+            <div>
+                <a href="homepage.html"><img src="finalimage.png" alt="" width="80" height="80">
+                    <p>&nbsp;&nbsp;Sports<span>Corner</span></p>
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <h3>Quick Links</h3>
+                </li>
+                <li><a href="store.html">Shop Now</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="quiz.html">Take Quiz</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>More</h3>
+                </li>
+                <li><a href="studentdetails.html">Student Details</a></li>
+                <li><a href="Sitemap.html">Sitemap</a></li>
+                <li><a href="Gallery.html">Image Gallery</a></li>
+            </ul>
+            <ul class="contact">
+                <li>
+                    <h3>Contact Us</h3>
+                </li>
+                <li class="answer">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <address>Address: 57, Ramakrishna Road,Colombo 06,Sri Lanka</address>
+                </li>
+                <li class="answer">
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a href="mailto:sportscorner.lk">Email: info@sportscorner.lk</a>
+                </li>
+                <li class="answer">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-phone"></i>
+                    </div>
+                    <a href="tel:779682373"> Phone: +94 779682373 </a>
+                </li>
+            </ul>
+            <div class="top">
+                <a href="#"><img src="top.png" alt="top" width="30" height="30"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-inner">
+            <p> Copyright &copy; 2023 - Sports Corner - All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>

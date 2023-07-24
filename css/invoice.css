@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900");
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body{
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgb(185, 185, 185) 0%, rgb(185, 185, 185) 0%, rgb(185, 185, 185) 0%);
+}
+*
+{
+    font-family: 'SF Pro Display', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+#coustomerDTitile
+{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.userDetails
+{
+    font-weight: bolder;
+    text-align: left;
+    color: 555;
+    font-weight: 500;
+}
+/* ------------------------- Invoice Items Css Section ------------------------- */
+
+.section-header {
+    font-family: "Poppins";
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: rgb(0, 0, 0);
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+    margin-left: -21px;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+
+}
+.cart-header{
+    margin-top: 20px;
+    margin-left: -21px;
+}
+.cart-quantity {
+    visibility: hidden;
+}
+
+.cart-item-title {
+    
+    color: #000;
+    margin-left: 1em;
+    font-size: 1.1em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    visibility: hidden;
+}
+
+.cart-row:last-child .cart-column {
+    border: 100;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 320px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+}
+
+.content-section {
+    margin: 1em;
+    left: 1000px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+#totalOut
+{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+body a {
+    color: #06f;
+}
+.companyDetails{
+    border-top: 1px solid (#000);
+    border-bottom: 1px solid #000;
+}
+
+.invoice-box {
+    background: #f4f4f4;
+    /*
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(242,187,220,1) 100%);
+    */
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 1px;
+    border-style: double;
+    border-radius: 10px;
+    
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.invoice-box table td {
+    padding-top: 10px;
+    padding-bottom:10px;
+    vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.bottom
+{
+    margin-top: 50px;
+    border-top: 1px solid #000;
+
+}
+
+#backTo{
+    
+    position:relative;
+    top: 20px;
+    left: 10px;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+    background-color: #421983;
+    color: #ffffff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#backTo:hover{
+    background-color:#ff622d ; 
+}
+
+
+

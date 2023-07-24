@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="logo.png">
+        <title>SportsCorner | Invoice Page</title>
+
+        
+        <link rel="stylesheet" href="css/invoice.css">
+        <script src="invoice.js"></script>
+
+        
+    </head>
+    <body>
+        <div id="invoiceContent">
+            <div class="invoice-box">
+                <h2 class="section-header">~INVOICE~</h2>
+                    <table class="companyDetails">
+                        <tr class="information">
+                            <td colspan="2">
+                                    +94 779682373 <br><br>
+                                    Sports Corner, <br>
+                                    No. 57, <br>
+                                    Ramakrishna Road,<br>
+                                    Colombo 06,
+                                    Sri Lanka
+                            </td>
+                                <td>
+                                    <br>
+                                    Created on : 2023/__/__ .
+                                </td>
+                        </tr>
+                    </table>
+                    
+                
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <table class="bottom"> 
+                                <tr>
+                                    <td >
+                                        <img src="images/finalimage.png" alt="Company logo" style="width: 50%; max-width: 80px" />
+                                    </td>
+                                    <td>
+                                        <br>
+                                        Sport Corner<br>
+                                        Contact Us :  +94 779682373<br>
+                                        THANK YOU, COME AGAIN !
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <section class="container content-section">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">ITEM</span>
+                            <span class="cart-price cart-header cart-column">PRICE</span>
+                        </div>
+                        
+                        <div id="cartItems"></div>   
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total</strong>
+                            <span id="totalOut"></span>
+                        </div>
+                    </section>        
+                </table>
+            </div>
+        </div>  
+        
+        <a id="backTo" href="store.html">OK</a><br><br>
+        
+        <br>
+        <br>
+        <br>
+      
+        <script>
+            document.getElementById("totalOut").innerHTML=localStorage.getItem("textval");
+            document.getElementById("cartItems").innerHTML=localStorage.getItem("ITEMS");
+        </script>
+    </body>
+</html>

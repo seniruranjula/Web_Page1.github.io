@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SportsCorner | Presentation page</title>
+    <meta http-equiv="refresh" content="4;homepage.html">
+    <link rel="stylesheet" href="css/Presentation.css">
+
+</head>
+
+<body>
+
+    <!-- Using U tube video - https://youtu.be/yQimoqo0-7g-->
+
+    <div class="container">
+        <div class="popup" id="popup">
+            <img src="images/finalimage.png" alt="logo">
+            <h2><br>Group Members</h2><br><br><br>
+            <p class="names">w1986706 20223189 Seniru Ranjula<br><br>
+                w1986721 20223204 Eshan Randunu<br><br>
+                w1986720 20223203 Dinithi Jayathilaka<br><br>
+                w1986648 20223151 Duvindu Megasooriya
+                </p>
+            <!--  <button type="button">OK</button>-->
+        </div>
+    </div>
+    <div class="col-22">
+        <h1>Seniru Ranjula <br></h1>
+        <a href="Page_editor_seniru.html" class="pageeditor">Page Editor&#8594;</a>
+    </div>
+
+
+
+
+    <script>
+        var seconds = 4
+        function displaySeconds() {
+            seconds -= 1
+            document.getElementById("displaySeconds").innerText = "You wil redirected to the home page in" + seconds + "Seconds"
+        }
+        setInterval(displaySeconds, 1000)
+        setTimeout("redirectpage()", 5000)
+    </script>
+
+
+</body>
+
+</html>
